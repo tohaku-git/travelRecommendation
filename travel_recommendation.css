@@ -1,0 +1,37 @@
+body {
+    background-image: url(./background.jpeg);
+    background-size: cover;
+}
+
+#introTitle {
+    width: 50%;
+    padding-left: 5%;
+}
+
+#introText {
+    width: 50%;
+    padding-left: 5%;
+}
+
+#contactForm {
+    max-width: 400px;
+    padding-left: 5%;
+}
+
+#contactForm input, #contactForm textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+}
+
+#contactForm button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
