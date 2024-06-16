@@ -1,6 +1,6 @@
 body {
     background-image: url(./background.jpeg);
-    background-size: cover;
+    background-size: auto;
 }
 
 #introTitle {
@@ -11,6 +11,19 @@ body {
 #introText {
     width: 50%;
     padding-left: 5%;
+}
+
+#searchTitle {
+    padding-left: 5%;
+}
+
+#result {
+    padding-left: 5%;
+    width: 50%;
+}
+
+#recommendedImg {
+    width: 100%;
 }
 
 #contactForm {
